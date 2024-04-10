@@ -3,9 +3,9 @@ This summer and fall, I decided that I wanted to digitize 600+ tables from the 1
 While many, many academic papers have used aggregated or partial data based on this series, to digitize the entire dataset by hand would be an overwhelming (perhaps impossible) task. But there are some dimensions of interwar unemployment that we can only really understand with a complete series, including the different experiences of men and women under the unemployment insurance system, the scale and nature of short-time work, and the distinct patterns of unemployment across specific industries. 
 Motivated by these questions and my optimism about the power of new technology, I set out to find a method of digitizing this data that was time efficient, cheap, and accurate. Here’s what I came up with!
 
-![digitise1](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/b9060924-348c-41a5-9d64-4d9ac3a206da)
+![Uploading digitise1.jpg…]()
+
 Before (data in book)
-![digitise2](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/b54484a1-e9a2-4ffc-81e3-50b505105134)
 After (data on computer)
 
 **WHAT YOU’LL NEED**
