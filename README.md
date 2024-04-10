@@ -78,6 +78,7 @@ Listen to a podcast or some local indie music. This is the most time consuming p
  
 
 **STEP 2: RECOGNIZE/OCR THE SCANS**
+
 Now for the easy part, where ABBYY does all the work. 
 
 “RECOGNISE” THE DOCUMENT
