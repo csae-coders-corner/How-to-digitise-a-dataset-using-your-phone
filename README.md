@@ -3,10 +3,8 @@ This summer and fall, I decided that I wanted to digitize 600+ tables from the 1
 While many, many academic papers have used aggregated or partial data based on this series, to digitize the entire dataset by hand would be an overwhelming (perhaps impossible) task. But there are some dimensions of interwar unemployment that we can only really understand with a complete series, including the different experiences of men and women under the unemployment insurance system, the scale and nature of short-time work, and the distinct patterns of unemployment across specific industries. 
 Motivated by these questions and my optimism about the power of new technology, I set out to find a method of digitizing this data that was time efficient, cheap, and accurate. Here’s what I came up with!
 
-![Uploading digitise1.jpg…]()
-
-Before (data in book)
-After (data on computer)
+![digitise1](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/9e7233de-7696-452e-bede-58e4b8c2c656)
+Before (data in book) and After (data on computer)
 
 **WHAT YOU’LL NEED**
 1. DATA
@@ -29,10 +27,12 @@ The Premium subscription for the FineScanner App, including all features, is onl
 **STEP 1: SCANNING YOUR DATA**
 
 OPEN THE FINESCANNER APP AND CREATE A NEW DOCUMENT
+
 FineScanner organizes your images into “Documents” which makes it easy to scan things that are multiple pages. In my case, I made one document for each year of data I was scanning, which contained the tables for each month in that year.
 To create a new document, click the red plus on the bottom of the screen.
 
 PICK YOUR CAMERA SETTINGS
+
 Across the top of the camera there are a number of options for your scanning. Here are the available options and why I chose NOT to use any of them:
 - Autocapture: Automatically takes a photo once the edges of a document are recognized, without you having to click the photo button. This is finicky in my opinion, and I often needed more time to line up and flatten out what I was scanning.
 - Flash: Self-explanatory, but you should be doing your scanning in a place with good light so that your photos are clearer.
@@ -40,25 +40,26 @@ Across the top of the camera there are a number of options for your scanning. He
 - Best of 3: This takes 3 photos and selects the best one automatically for you. I used this for about half of my scanning but it made the process go very slowly. I got equally good (if not better) results from just a single shot, which was also more efficient.
 
 LINE UP YOUR DATA FOR THE SHOT
+
 In this very DIY setup, I didn’t have any fancy scanning equipment or book holders, so every page I scanned I needed to get flat on the table. By only scanning one page at a time (i.e. not over the binding of the book), I could put that half of the book flat on the table with the other side of the book held up at a 90 degree angle.
 ![digitise4](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/719f078d-c674-4103-b618-694774d0515a)
 
 
 TAKE THE PICTURE
+
 Hold your phone flat above the data, lining it up as straight as possible with your data. Click the big button in the center to take the picture.
 You may see a prompt asking if you want to save the image to your Photos. This saves a copy of the raw image into your iPhone’s camera roll, so choose whatever is best for you. It’s good to have this for backup if it will be difficult to reference the original data again. But if you’re scanning hundreds of things, this does take up some significant room on your phone and might be overkill.
 After your first picture, it will take you back to the camera. This is how you can take multiple photos at once. I wouldn’t recommend taking more than 5 or so in one batch just because that makes it harder to root out and correct photography errors (see next step). But up to you! 
 
 CHECK PHOTOS FOR QUALITY
+
 On the bottom right you should see a thumbnail of your image with a little red number indicating how many photos you’ve taken. Click on this to check how your scanning went.
 
 Each photo will have been edited by the app for optimal OCR. Typically the contrast is increased and borders may have been cropped out.
 
-![digitise5](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/0ab2fe2c-9f94-409f-a5e4-11c78a6ac726)
-Original date in the book
+![digitise5](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/3b36c12b-6e9a-45d2-8015-76f748a70e64)
 
-![digitise6](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/967996aa-8a70-498f-8b14-c6ef3e6ea83d)
-A good scan of it
+Original date in the book and A good scan of it
 
 Occasionally the app will fail comically. In these cases, you’ll want to retake the image. If you click the three vertical dots on the bottom of the screen, you’ll be able to select “Retake” and see the camera again. 
 
@@ -66,18 +67,21 @@ Occasionally the app will fail comically. In these cases, you’ll want to retak
 Oops
 
 SAVE
+
 Click “Save” in the upper right corner of the screen. This will bring up a screen called Document Properties where you can enter a title for the document and optional tags.
 Once you click “Done” (again in the upper right corner), the document will show up on the main app screen under My Documents. From here, you can click on it to add more images if you need to, or to edit again the document’s properties.
 
 REPEAT HUNDREDS OF TIMES
-*[Make sure to move onto the next steps with a small test case of your data to make sure this method works before spending hours scanning hundreds more pages!]*
+
+*(Make sure to move onto the next steps with a small test case of your data to make sure this method works before spending hours scanning hundreds more pages!)*
 Listen to a podcast or some local indie music. This is the most time consuming part. Remind yourself that it could be worse!
  
 
 **STEP 2: RECOGNIZE/OCR THE SCANS**
 Now for the easy part, where ABBYY does all the work. 
 
-“RECOGNIZE” THE DOCUMENT
+“RECOGNISE” THE DOCUMENT
+
 Simply press the purple “Recognize” button on a document from the My Documents screen. This will prompt you to pick the language of the document and the file type you want the text put into. ABBYY supports OCR for over 100 languages which gives you a lot of flexibility! 
 
 I OCR’d all of my PDFs into DOCX (Word) format because they had a mix of words and numbers, with tables that did not have many row lines. If you have a very clean or straightforward table you’re scanning, feel free to experiment with scanning straight into XLSX (Excel) format.
@@ -87,6 +91,7 @@ When you click “Done” the app will upload your PDF to the ABBYY FineReader s
 After recognizing your document, it will show up under My Documents as a DOCX.
 
 SEND YOUR DOCX AND PDF TO YOUR COMPUTER
+
 From here, it’s easy to get the DOCX off your phone. Click the share button and you can upload it directly to the Cloud (e.g. Dropbox) or send via email. I would recommend sending both the DOCX and the Large PDF to your computer so that you can reference the original data when you get to data cleaning.
 
 
@@ -118,6 +123,7 @@ Then, I summed up each column and compared my results to the column totals given
 For your own project, you’ll have to devise a system that meets your needs, making it as reusable as possible. In my case, I used the same sheet over and over so that it would be already set up for each batch of new numbers to be cleaned. Feel free to experiment with your own improvements!
 
 PUT DATA INTO FINAL EXCEL SHEET
+
 The last step is the simplest of them all. Just copy the data from your cleaning worksheet and paste (as values) into your master data file! 
 
 **ENDING THOUGHTS**
