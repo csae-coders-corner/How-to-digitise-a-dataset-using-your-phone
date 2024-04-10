@@ -11,13 +11,17 @@ After (data on computer)
 **WHAT YOU’LL NEED**
 1. DATA
 This method will work best with data that:
-*Is **typewritten** rather than handwritten. The technology for digitizing handwriting exists and is improving, but in my judgement is not reliable or accurate enough yet to use for research purposes. 
-*Has **clear formatting** like headlines and column separators. This allows the software to recognize the table structure better.
-*Is in a **large table**. The real time savings come when you’re working with tables with 50+ lines.
-*Is **repeated in a similar format**. I had a two-page table for every month in the same format, meaning I could use the same system for checking the accuracy of the digitizing over and over.
-*Added plus: This method works great with giant books that don’t fit well on a traditional scanner!
+-Is **typewritten** rather than handwritten. The technology for digitizing handwriting exists and is improving, but in my judgement is not reliable or accurate enough yet to use for research purposes.
 
-2. OCR SOFTWARE - ABBYY FINESCANNER IPHONE APP
+-Has **clear formatting** like headlines and column separators. This allows the software to recognize the table structure better.
+
+-Is in a **large table**. The real time savings come when you’re working with tables with 50+ lines.
+
+-Is **repeated in a similar format**. I had a two-page table for every month in the same format, meaning I could use the same system for checking the accuracy of the digitizing over and over.
+
+-Added plus: This method works great with giant books that don’t fit well on a traditional scanner!
+
+3. OCR SOFTWARE - ABBYY FINESCANNER IPHONE APP
 OCR stands for “optical character recognition,” where text can be extracted from an image that is scanned or uploaded somehow. For example, if you take a picture of a book and send it to your computer, you will need to use OCR software to make the text searchable or editable.
 In the early 2000s, the primary way people used OCR was scanning images into a desktop computer program. Now, there are a plethora of OCR programs, apps, websites, and even pens that use a variety of different methods for different purposes. For example, both Google Drive and Dropbox have proprietary OCR models that can automatically recognize text in stored images or PDFs. A number of open-source models also exist which are easy to adjust to meet the needs of a specific project.
 For this project I used the **ABBYY FineScanner iPhone App** (available here). ABBYY is the industry standard for commercial OCR for good reason — the results are accurate and table recognition is built-in. Though I was prepared to train my own OCR to recognize these tables, there is no need to reinvent the wheel when the technology is this advanced. 
