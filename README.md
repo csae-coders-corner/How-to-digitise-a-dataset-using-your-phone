@@ -6,7 +6,7 @@ Motivated by these questions and my optimism about the power of new technology, 
 ![digitise1](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/9e7233de-7696-452e-bede-58e4b8c2c656)
 Before (data in book) and After (data on computer)
 
-##WHAT YOU’LL NEED
+## WHAT YOU’LL NEED
 1. DATA
 This method will work best with data that:
 - Is **typewritten** rather than handwritten. The technology for digitizing handwriting exists and is improving, but in my judgement is not reliable or accurate enough yet to use for research purposes.
@@ -24,14 +24,14 @@ The Premium subscription for the FineScanner App, including all features, is onl
 ![digitise3](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/9bccaf49-a4db-41f6-9a63-dc78f3bf17ff)
 
 
-##STEP 1: SCANNING YOUR DATA
+## STEP 1: SCANNING YOUR DATA
 
-###OPEN THE FINESCANNER APP AND CREATE A NEW DOCUMENT
+### OPEN THE FINESCANNER APP AND CREATE A NEW DOCUMENT
 
 FineScanner organizes your images into “Documents” which makes it easy to scan things that are multiple pages. In my case, I made one document for each year of data I was scanning, which contained the tables for each month in that year.
 To create a new document, click the red plus on the bottom of the screen.
 
-###PICK YOUR CAMERA SETTINGS
+### PICK YOUR CAMERA SETTINGS
 
 Across the top of the camera there are a number of options for your scanning. Here are the available options and why I chose NOT to use any of them:
 - Autocapture: Automatically takes a photo once the edges of a document are recognized, without you having to click the photo button. This is finicky in my opinion, and I often needed more time to line up and flatten out what I was scanning.
@@ -39,19 +39,19 @@ Across the top of the camera there are a number of options for your scanning. He
 - Book Scan: Scans the left and right page of an open book simultaneously, but doesn’t work well with oversized books like what I was using
 - Best of 3: This takes 3 photos and selects the best one automatically for you. I used this for about half of my scanning but it made the process go very slowly. I got equally good (if not better) results from just a single shot, which was also more efficient.
 
-###LINE UP YOUR DATA FOR THE SHOT
+### LINE UP YOUR DATA FOR THE SHOT
 
 In this very DIY setup, I didn’t have any fancy scanning equipment or book holders, so every page I scanned I needed to get flat on the table. By only scanning one page at a time (i.e. not over the binding of the book), I could put that half of the book flat on the table with the other side of the book held up at a 90 degree angle.
 ![digitise4](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/719f078d-c674-4103-b618-694774d0515a)
 
 
-###TAKE THE PICTURE
+### TAKE THE PICTURE
 
 Hold your phone flat above the data, lining it up as straight as possible with your data. Click the big button in the center to take the picture.
 You may see a prompt asking if you want to save the image to your Photos. This saves a copy of the raw image into your iPhone’s camera roll, so choose whatever is best for you. It’s good to have this for backup if it will be difficult to reference the original data again. But if you’re scanning hundreds of things, this does take up some significant room on your phone and might be overkill.
 After your first picture, it will take you back to the camera. This is how you can take multiple photos at once. I wouldn’t recommend taking more than 5 or so in one batch just because that makes it harder to root out and correct photography errors (see next step). But up to you! 
 
-###CHECK PHOTOS FOR QUALITY
+### CHECK PHOTOS FOR QUALITY
 
 On the bottom right you should see a thumbnail of your image with a little red number indicating how many photos you’ve taken. Click on this to check how your scanning went.
 
@@ -66,22 +66,22 @@ Occasionally the app will fail comically. In these cases, you’ll want to retak
 ![digitise7](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/da033e14-009d-4042-bf4e-e866353173d1)
 Oops
 
-###SAVE
+### SAVE
 
 Click “Save” in the upper right corner of the screen. This will bring up a screen called Document Properties where you can enter a title for the document and optional tags.
 Once you click “Done” (again in the upper right corner), the document will show up on the main app screen under My Documents. From here, you can click on it to add more images if you need to, or to edit again the document’s properties.
 
-###REPEAT HUNDREDS OF TIMES
+### REPEAT HUNDREDS OF TIMES
 
 *(Make sure to move onto the next steps with a small test case of your data to make sure this method works before spending hours scanning hundreds more pages!)*
 Listen to a podcast or some local indie music. This is the most time consuming part. Remind yourself that it could be worse!
  
 
-##STEP 2: RECOGNIZE/OCR THE SCANS
+## STEP 2: RECOGNIZE/OCR THE SCANS
 
 Now for the easy part, where ABBYY does all the work. 
 
-###“RECOGNISE” THE DOCUMENT
+### “RECOGNISE” THE DOCUMENT
 
 Simply press the purple “Recognize” button on a document from the My Documents screen. This will prompt you to pick the language of the document and the file type you want the text put into. ABBYY supports OCR for over 100 languages which gives you a lot of flexibility! 
 
@@ -91,16 +91,16 @@ When you click “Done” the app will upload your PDF to the ABBYY FineReader s
 
 After recognizing your document, it will show up under My Documents as a DOCX.
 
-###SEND YOUR DOCX AND PDF TO YOUR COMPUTER
+### SEND YOUR DOCX AND PDF TO YOUR COMPUTER
 
 From here, it’s easy to get the DOCX off your phone. Click the share button and you can upload it directly to the Cloud (e.g. Dropbox) or send via email. I would recommend sending both the DOCX and the Large PDF to your computer so that you can reference the original data when you get to data cleaning.
 
 
 
-##STEP 3: CLEAN AND COMPILE YOUR DATA
+## STEP 3: CLEAN AND COMPILE YOUR DATA
 
 
-###OPEN THE DOCX FILE ON YOUR COMPUTER AND EVALUATE
+### OPEN THE DOCX FILE ON YOUR COMPUTER AND EVALUATE
 
 In the best case scenario, which happened for me around 75% of the time, the data was appropriately placed into a table in Word. In this picture, you can see that the numbers are neatly aligned into the table. When your output is like this, it’s easy to highlight the relevant cells of the table and paste it into Excel. You’ll also notice that the first column with the text has some issues. This doesn’t matter in my case because I could use the same industry list from month to month, just copying and pasting over into Excel the updated numbers. 
 
@@ -112,7 +112,7 @@ Sometimes, for whatever reason, the OCR completely failed to read the numbers an
 DOCX Output
 
 
-###BRING DATA OVER TO EXCEL AND CLEAN 
+### BRING DATA OVER TO EXCEL AND CLEAN 
 Before compiling your data into a final Excel sheet, you might want to clean the data to ensure it is accurate enough for your purposes. In my case, I put in many extra hours to make sure the data was absolutely perfect, using a special Excel sheet to clean and verify each table.
 
 The structure of my data included a variety of “total” columns, making it relatively easier to clean and verify. Rather than check every number, I could replace the “total” columns with an Excel formula. You can see in this screen shot that the third column of numbers is a formula that has been filled down, summing the first two columns of numbers. If the formula threw #VALUE, then I checked by hand the two cells that went into it to make sure there were no accidental characters inserted by the OCR. 
@@ -123,11 +123,11 @@ Then, I summed up each column and compared my results to the column totals given
 
 For your own project, you’ll have to devise a system that meets your needs, making it as reusable as possible. In my case, I used the same sheet over and over so that it would be already set up for each batch of new numbers to be cleaned. Feel free to experiment with your own improvements!
 
-###PUT DATA INTO FINAL EXCEL SHEET
+### PUT DATA INTO FINAL EXCEL SHEET
 
 The last step is the simplest of them all. Just copy the data from your cleaning worksheet and paste (as values) into your master data file! 
 
-##ENDING THOUGHTS
+## ENDING THOUGHTS
 
 This method definitely saved me time over digitizing all of this data by hand. However, it still took months to scan 600+ tables into the app and then clean it meticulously. 
 
