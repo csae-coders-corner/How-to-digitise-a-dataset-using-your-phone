@@ -17,7 +17,7 @@ This method will work best with data that:
 - Is **repeated in a similar format**. I had a two-page table for every month in the same format, meaning I could use the same system for checking the accuracy of the digitizing over and over.
 - Added plus: This method works great with giant books that don’t fit well on a traditional scanner!
 
-3. OCR SOFTWARE - ABBYY FINESCANNER IPHONE APP
+2. OCR SOFTWARE - ABBYY FINESCANNER IPHONE APP
 OCR stands for “optical character recognition,” where text can be extracted from an image that is scanned or uploaded somehow. For example, if you take a picture of a book and send it to your computer, you will need to use OCR software to make the text searchable or editable.
 In the early 2000s, the primary way people used OCR was scanning images into a desktop computer program. Now, there are a plethora of OCR programs, apps, websites, and even pens that use a variety of different methods for different purposes. For example, both Google Drive and Dropbox have proprietary OCR models that can automatically recognize text in stored images or PDFs. A number of open-source models also exist which are easy to adjust to meet the needs of a specific project.
 For this project I used the **ABBYY FineScanner iPhone App** (available here). ABBYY is the industry standard for commercial OCR for good reason — the results are accurate and table recognition is built-in. Though I was prepared to train my own OCR to recognize these tables, there is no need to reinvent the wheel when the technology is this advanced. 
@@ -34,10 +34,10 @@ To create a new document, click the red plus on the bottom of the screen.
 
 PICK YOUR CAMERA SETTINGS
 Across the top of the camera there are a number of options for your scanning. Here are the available options and why I chose NOT to use any of them:
-• Autocapture: Automatically takes a photo once the edges of a document are recognized, without you having to click the photo button. This is finicky in my opinion, and I often needed more time to line up and flatten out what I was scanning.
-• Flash: Self-explanatory, but you should be doing your scanning in a place with good light so that your photos are clearer.
-• Book Scan: Scans the left and right page of an open book simultaneously, but doesn’t work well with oversized books like what I was using
-• Best of 3: This takes 3 photos and selects the best one automatically for you. I used this for about half of my scanning but it made the process go very slowly. I got equally good (if not better) results from just a single shot, which was also more efficient.
+- Autocapture: Automatically takes a photo once the edges of a document are recognized, without you having to click the photo button. This is finicky in my opinion, and I often needed more time to line up and flatten out what I was scanning.
+- Flash: Self-explanatory, but you should be doing your scanning in a place with good light so that your photos are clearer.
+- Book Scan: Scans the left and right page of an open book simultaneously, but doesn’t work well with oversized books like what I was using
+- Best of 3: This takes 3 photos and selects the best one automatically for you. I used this for about half of my scanning but it made the process go very slowly. I got equally good (if not better) results from just a single shot, which was also more efficient.
 
 LINE UP YOUR DATA FOR THE SHOT
 In this very DIY setup, I didn’t have any fancy scanning equipment or book holders, so every page I scanned I needed to get flat on the table. By only scanning one page at a time (i.e. not over the binding of the book), I could put that half of the book flat on the table with the other side of the book held up at a 90 degree angle.
