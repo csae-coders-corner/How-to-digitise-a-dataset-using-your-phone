@@ -9,7 +9,7 @@ Before (data in book)
 After (data on computer)
 
 **WHAT YOU’LL NEED**
-1. DATA
+- Item 1 DATA
 This method will work best with data that:
 • Is **typewritten** rather than handwritten. The technology for digitizing handwriting exists and is improving, but in my judgement is not reliable or accurate enough yet to use for research purposes. 
 • Has **clear formatting** like headlines and column separators. This allows the software to recognize the table structure better.
