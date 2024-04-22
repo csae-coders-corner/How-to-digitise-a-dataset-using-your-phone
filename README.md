@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_Digitising Datasets](https://github.com/csae-coders-corner/How-to-digitise-a-dataset-using-your-phone/assets/148211163/ffcec992-a495-4a72-9ae7-988c2a7aaf03)
+
 # How-to-digitise-a-dataset-using-your-phone
 This summer and fall, I decided that I wanted to digitize 600+ tables from the 1923-1936 Ministry of Labour Gazette, a British government publication with detailed monthly data on unemployment in different industries during the interwar period. 
 While many, many academic papers have used aggregated or partial data based on this series, to digitize the entire dataset by hand would be an overwhelming (perhaps impossible) task. But there are some dimensions of interwar unemployment that we can only really understand with a complete series, including the different experiences of men and women under the unemployment insurance system, the scale and nature of short-time work, and the distinct patterns of unemployment across specific industries. 
